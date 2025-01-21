@@ -360,40 +360,35 @@
 .education{
     display: flex;
     justify-items: center;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
     margin-bottom: 10px;
 }
 
 .education-kids{
     display: flex;
-    align-items: center;
+    /* border: 2px solid tomato; */
+    /* align-items: center; */
     flex-direction: column;
     flex-wrap: wrap;
     width: 400px;
 }
 .About-school-perspiciatis{
   display: flex;
-  border: 2px solid tomato;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+  justify-content: right;
+  align-items: flex-start;
+  gap: 10px;
   flex-direction: column;
 }
 .perspiciatis-li{
-    border: 2px solid tomato;
-    text-align: center;
-}
-.keep-in {
-border: 2px solid tomato;
-
-  
+    display: grid;
+    gap: 15px;
 }
 
 .perspiciatis{
  width: 1160px;
  margin: 0 auto;
 }
-
 .About-school-h {
     color: rgb(255, 255, 255);
     font-size: 1.8rem;
@@ -416,67 +411,8 @@ border: 2px solid tomato;
     margin-bottom: 10px;
     color: rgb(255, 255, 255);
     font-size: 1.3rem;
-    font-weight: 700;
-   
+    font-weight: 700;  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* midiay quary */
 @media screen and (max-width:576px) {
@@ -541,46 +477,12 @@ border: 2px solid tomato;
 
 
 
-    .bg-color-footer {
-        background-color: rgb(1, 172, 253);
-        color: white;
-    }
-    .About-school-h {
-        color: rgb(255, 255, 255);
-        font-size: 1.8rem;
-        font-weight: 700;
-        margin-bottom: 10px;
-    }
-    .list-primary {
-        color: aliceblue;
-    }
-    .list-item1 {
-        margin-top: 15px;
-    }
-    .education {
+    .delectus-minima-footer{
         display: flex;
-        align-items: center;
-        margin-bottom: 10px; 
+        justify-content: space-between;
+        align-items:flex-start;
+        flex-direction: column;
+        gap: 80px;
     }
-    .keep-in {
-        margin-top: 30px;
-        margin-bottom: 15px;  
-    }
-    .kids-p {
-        color: rgb(255, 255, 255);
-        font-size: 1.2rem;
-        font-weight: 400;
-        margin-bottom: 40px;
-       
-    }
-    
-    .Touch {
-        margin-bottom: 10px;
-        color: rgb(255, 255, 255);
-        font-size: 1.3rem;
-        font-weight: 700;
-       
-    }
-    
 
 }
