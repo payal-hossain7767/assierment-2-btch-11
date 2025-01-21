@@ -324,11 +324,7 @@
     margin-left: 30px;
 }
 
-.bg-color-footer {
-    background-color: rgb(1, 172, 253);
-    color: white;
-    height: 500px;
-}
+
 
 .view {
     display: flex;
@@ -342,40 +338,87 @@
     border: none;
     border-radius: 12px;
     color: rgb(255, 255, 255);
+    margin-bottom: 60px;
 }
 
 /* footer setion */
 
-.list-item1 {
-    color: aliceblue;
+.bg-color-footer {
+    background-color: rgb(1, 172, 253);
+    color: white;
 }
-
-.container-show {
-    width: 400px;
-    margin: 80px 0;
-}
-
-.Education-container {
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-}
-
-.footer-container {
+.footer{
     max-width: 1160px;
     margin: 0 auto;
+}
+.delectus-minima-footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 80px;
+}
+.education{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.education-kids{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.About-school-perspiciatis{
+  display: flex;
+  border: 2px solid tomato;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+.perspiciatis-li{
+    border: 2px solid tomato;
+    text-align: center;
+}
+.keep-in {
+border: 2px solid tomato;
+
+  
+}
+
+.perspiciatis{
+ width: 1160px;
+ margin: 0 auto;
 }
 
 .About-school-h {
     color: rgb(255, 255, 255);
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 700;
-    margin-bottom: 10px;
 }
 
+.list-primary {
+    color: aliceblue;
+}
+
+.kids-p {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+   
+}
+
+.Touch {
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: 700;
+   
+}
 
 
 
@@ -495,5 +538,49 @@
     .contaner-card1 {
         margin: 10px;
     }
+
+
+
+    .bg-color-footer {
+        background-color: rgb(1, 172, 253);
+        color: white;
+    }
+    .About-school-h {
+        color: rgb(255, 255, 255);
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .list-primary {
+        color: aliceblue;
+    }
+    .list-item1 {
+        margin-top: 15px;
+    }
+    .education {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px; 
+    }
+    .keep-in {
+        margin-top: 30px;
+        margin-bottom: 15px;  
+    }
+    .kids-p {
+        color: rgb(255, 255, 255);
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-bottom: 40px;
+       
+    }
+    
+    .Touch {
+        margin-bottom: 10px;
+        color: rgb(255, 255, 255);
+        font-size: 1.3rem;
+        font-weight: 700;
+       
+    }
+    
 
 }
