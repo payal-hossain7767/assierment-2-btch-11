@@ -263,7 +263,8 @@
 }
 
 .stories-btn {
-    border-radius: 47.93px;
+    border-radius: 48px;
+    color: aliceblue;
     background: rgb(60, 216, 232);
     padding: 15px 24px;
     border: none;
@@ -303,7 +304,8 @@
 }
 
 .stories-btn2 {
-    border-radius: 47.93px;
+    border-radius: 48px;
+    color: aliceblue;
     background: rgb(93, 88, 240);
     padding: 15px 24px;
     border: none;
@@ -312,6 +314,7 @@
 
 .stories-btn3 {
     border-radius: 48px;
+    color: aliceblue;
     background: rgb(149, 178, 38);
     padding: 15px 24px;
     border: none;
@@ -347,17 +350,20 @@
     background-color: rgb(1, 172, 253);
     color: white;
 }
-.footer{
+
+.footer {
     max-width: 1160px;
     margin: 0 auto;
 }
-.delectus-minima-footer{
+
+.delectus-minima-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 80px;
 }
-.education{
+
+.education {
     display: flex;
     justify-items: center;
     align-items: flex-start;
@@ -365,7 +371,7 @@
     margin-bottom: 10px;
 }
 
-.education-kids{
+.education-kids {
     display: flex;
     /* border: 2px solid tomato; */
     /* align-items: center; */
@@ -373,22 +379,25 @@
     flex-wrap: wrap;
     width: 400px;
 }
-.About-school-perspiciatis{
-  display: flex;
-  justify-content: right;
-  align-items: flex-start;
-  gap: 10px;
-  flex-direction: column;
+
+.About-school-perspiciatis {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    gap: 10px;
+    flex-direction: column;
 }
-.perspiciatis-li{
+
+.perspiciatis-li {
     display: grid;
     gap: 15px;
 }
 
-.perspiciatis{
- width: 1160px;
- margin: 0 auto;
+.perspiciatis {
+    width: 1160px;
+    margin: 0 auto;
 }
+
 .About-school-h {
     color: rgb(255, 255, 255);
     font-size: 1.8rem;
@@ -404,14 +413,27 @@
     font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 40px;
-   
+
 }
 
 .Touch {
     margin-bottom: 10px;
     color: rgb(255, 255, 255);
     font-size: 1.3rem;
-    font-weight: 700;  
+    font-weight: 700;
+}
+
+.kids-p {
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: 400;
+    
+}
+
+.kids-h {
+    color: rgb(255, 255, 255);
+    font-size: 2.8rem;
+    font-weight: 700;
 }
 
 /* midiay quary */
@@ -477,10 +499,10 @@
 
 
 
-    .delectus-minima-footer{
+    .delectus-minima-footer {
         display: flex;
         justify-content: space-between;
-        align-items:flex-start;
+        align-items: flex-start;
         flex-direction: column;
         gap: 80px;
     }
