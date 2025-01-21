@@ -9,8 +9,9 @@
 .quicksand {
     font-family: "Quicksand";
     font-optical-sizing: auto;
-   
+
 }
+
 /*primary css */
 .list {
     list-style: none;
@@ -24,12 +25,13 @@
 
 /* emd primary css */
 .all-background-img {
-    background-image:linear-gradient(rgba(247, 244, 241, 0.377), rgba(221, 221, 212, 0.445), rgba(253, 207, 3, 0.425)), url(../img/bg.png);
+    background-image: linear-gradient(rgba(247, 244, 241, 0.377), rgba(221, 221, 212, 0.445), rgba(253, 207, 3, 0.425)), url(../img/bg.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
-.background-border-width{
+
+.background-border-width {
     max-width: 1160px;
     margin: 0 auto;
 }
@@ -41,11 +43,13 @@
     align-items: center;
     padding: 10px;
 }
+
 .cutepi-nav {
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
 .cutepi-h {
     color: rgb(17, 17, 17);
     font-size: 2rem;
@@ -216,8 +220,6 @@
 /* arowe section */
 .img-slider {
     text-align: center;
-    margin-bottom: 80px;
-    border-bottom: 2px dashed gray;
 }
 
 .slider1 {
@@ -233,29 +235,33 @@
 }
 
 /* storis-section */
-.our-card{
+.our-card {
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
     gap: 10px;
-   margin-bottom: 80px;
+    margin-bottom: 80px;
     flex: 1;
 }
+
 .storis-container {
     background-color: aliceblue;
     border-radius: 13px;
-    
+
 }
+
 .clolor-card {
     padding: 20px;
     display: grid;
     gap: 10px
 }
+
 .stories-img {
     width: 100%;
     border-radius: 16px;
 }
+
 .stories-btn {
     border-radius: 47.93px;
     background: rgb(60, 216, 232);
@@ -263,11 +269,13 @@
     border: none;
     margin-bottom: 12px;
 }
+
 .stories-mar {
     position: relative;
     margin-top: -50px;
     margin-left: 30px;
 }
+
 /*  */
 .contaner-card1 {
     display: grid;
@@ -277,19 +285,23 @@
     margin: 10px;
     gap: 20px;
 }
+
 .storis-container1 {
     background-color: aliceblue;
     border-radius: 13px;
 }
+
 .clolor-card1 {
     padding: 20px;
     display: grid;
     gap: 10px
 }
+
 .stories-img1 {
     width: 100%;
     border-radius: 16px;
 }
+
 .stories-btn2 {
     border-radius: 47.93px;
     background: rgb(93, 88, 240);
@@ -297,6 +309,7 @@
     border: none;
     margin-bottom: 12px;
 }
+
 .stories-btn3 {
     border-radius: 48px;
     background: rgb(149, 178, 38);
@@ -304,22 +317,24 @@
     border: none;
     margin-bottom: 12px;
 }
+
 .stories-mar1 {
     position: relative;
     margin-top: -50px;
     margin-left: 30px;
 }
-/* footer setion */
-.bg-color-footer{
+
+.bg-color-footer {
     background-color: rgb(1, 172, 253);
     color: white;
     height: 500px;
 }
-.view{
+
+.view {
     display: flex;
     justify-content: center;
- }
- 
+}
+
 .banner-btn2 {
     margin: 20px;
     padding: 10px 20px;
@@ -327,6 +342,38 @@
     border: none;
     border-radius: 12px;
     color: rgb(255, 255, 255);
+}
+
+/* footer setion */
+
+.list-item1 {
+    color: aliceblue;
+}
+
+.container-show {
+    width: 400px;
+    margin: 80px 0;
+}
+
+.Education-container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.footer-container {
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.About-school-h {
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
 
 
@@ -441,9 +488,10 @@
 
     /* our stories */
     .storis-container {
-       
+
         display: none;
     }
+
     .contaner-card1 {
         margin: 10px;
     }
