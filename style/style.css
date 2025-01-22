@@ -13,19 +13,26 @@
 }
 
 /*primary css */
-.list {
-    list-style: none;
+
+.list-primary1 {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 .list-primary {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
+    color: aliceblue;
+}
+.list{
+    list-style: none;
 }
 
 /* emd primary css */
 .all-background-img {
-    background-image: linear-gradient(rgba(247, 244, 241, 0.377), rgba(221, 221, 212, 0.445), rgba(253, 207, 3, 0.425)), url(../img/bg.png);
+    background-image: linear-gradient(rgba(155, 149, 142, 0.377), rgba(221, 221, 212, 0.445), rgba(253, 207, 3, 0.425)), url(../img/bg.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -56,25 +63,25 @@
     font-weight: 700;
 }
 
-.list-item {
+.list-item-nav {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.list-1 {
+#list-1-color {
     color: rgb(254, 163, 1);
 }
 
-.list-2 {
+#list-2-color {
     color: rgb(1, 172, 253);
 }
 
-.list-3 {
+#list-3-color {
     color: rgb(5, 212, 223);
 }
 
-.list-4 {
+#list-4-color {
     color: rgb(93, 88, 239);
 }
 
@@ -404,7 +411,7 @@
     font-weight: 700;
 }
 
-.list-primary {
+.list-primary1 {
     color: aliceblue;
 }
 
