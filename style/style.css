@@ -32,7 +32,7 @@
 
 /* emd primary css */
 .all-background-img {
-    background-image: linear-gradient(rgba(155, 149, 142, 0.377), rgba(221, 221, 212, 0.445), rgba(253, 207, 3, 0.425)), url(../img/bg.png);
+    background-image: linear-gradient(rgba(243, 237, 227, 0.377), rgba(238, 238, 217, 0.445), rgba(235, 192, 1, 0.425)), url(../img/bg.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
